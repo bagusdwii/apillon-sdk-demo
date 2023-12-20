@@ -1,19 +1,20 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "apillon-sdk-sandbox",
   "version": "1.0.0",
-  "description": "",
+  "description": "Apillon SDK usage example.",
   "main": "dist/index",
   "scripts": {
     "start": "nodemon --exec npx ts-node src/index.ts",
     "identity": "npx ts-node ./src/identity.ts",
-    "storage:get-buckets": "npx ts-node ./src/storage-get-buckets.ts"
+    "storage:buckets": "npx ts-node ./src/storage-buckets.ts",
+    "storage:bucket-content": "npx ts-node ./src/storage-bucket-content.ts"
   },
   "devDependencies": {
+    "@types/node": "^20.10.5",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
     "@apillon/sdk": "1.2.0-beta.1",
-    "@types/node": "20.10.5",
     "dotenv": "^16.3.1",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"

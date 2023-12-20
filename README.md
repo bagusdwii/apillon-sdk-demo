@@ -1,10 +1,5 @@
-# Node.js template
+# Apillon SDK demo
 
-This is a Node.js project.
+This is a node.js typescript project that showcases usage of Apillon SDK.
 
-Add your [configuration](https://codesandbox.io/docs/projects/learn/setting-up/tasks) to optimize it for [CodeSandbox](https://codesandbox.io/p/dashboard).
-
-## Resources
-
-- [CodeSandbox — Docs](https://codesandbox.io/docs/learn)
-- [CodeSandbox — Discord](https://discord.gg/Ggarp3pX5H)
+It can be run locally on in browser via [Codesandbox](https://codesandbox.io/).
