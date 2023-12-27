@@ -15,7 +15,11 @@
     "storage:bucket-ipns-update": "npx ts-node ./src/storage-bucket-ipns-update.ts",
     "hosting:websites": "npx ts-node ./src/hosting-websites.ts",
     "hosting:website-deploy": "npx ts-node ./src/hosting-website-deploy.ts",
-    "hosting:website-deploy-status": "npx ts-node ./src/hosting-website-deploy-status.ts"
+    "hosting:website-deploy-status": "npx ts-node ./src/hosting-website-deploy-status.ts",
+    "nft:collections": "npx ts-node ./src/nft-collections.ts",
+    "nft:collection": "npx ts-node ./src/nft-collection.ts",
+    "nft:collection-create": "npx ts-node ./src/nft-collection-create.ts",
+    "nft:collection-mint": "npx ts-node ./src/nft-collection-mint.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",

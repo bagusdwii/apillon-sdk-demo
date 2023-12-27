@@ -12,8 +12,17 @@ We have all major functionalities as examples so you can run scripts:
 - npm run storage:bucket-ipns-create
 - npm run storage:bucket-ipns-update
 
-- npm run hosting:
+- npm run hosting:websites
+- npm run hosting:website-deploy
+- npm run hosting:website-deploy-status
 
-- npm run identity:generate-signing-message
+- npm run identity
+- npm run identity:generate-message
+- npm run identity:validate-signature
+
+- npm run nft:collections
+- npm run nft:collection-create
+- npm run nft:collection-mint
+- npm run nft:collection
 
 `);

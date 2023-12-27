@@ -6,6 +6,7 @@ export enum EnvLevel {
   STORAGE_IPNS = 3,
   HOSTING = 4,
   HOSTING_DEPLOYMENT = 5,
+  NFT = 6,
 }
 
 export function prepareEnv(level: EnvLevel = EnvLevel.GENERAL) {
@@ -39,5 +40,9 @@ export function prepareEnv(level: EnvLevel = EnvLevel.GENERAL) {
 
   if (level == EnvLevel.HOSTING_DEPLOYMENT && !process.env.APILLON_DEPLOYMENT) {
     throw new Error("Missing env: APILLON_DEPLOYMENT");
+  }
+
+  if (level == EnvLevel.NFT && !process.env.APILLON_COLLECTION) {
+    throw new Error("Missing env: APILLON_COLLECTION");
   }
 }
