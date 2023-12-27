@@ -7,7 +7,11 @@
     "start": "nodemon --exec npx ts-node src/index.ts",
     "identity": "npx ts-node ./src/identity.ts",
     "storage:buckets": "npx ts-node ./src/storage-buckets.ts",
-    "storage:bucket-content": "npx ts-node ./src/storage-bucket-content.ts"
+    "storage:bucket-content": "npx ts-node ./src/storage-bucket-content.ts",
+    "storage:bucket-upload": "npx ts-node ./src/storage-bucket-upload.ts",
+    "storage:bucket-ipns-create": "npx ts-node ./src/storage-bucket-ipns-create.ts",
+    "storage:bucket-ipns-update": "npx ts-node ./src/storage-bucket-ipns-update.ts",
+    "hosting:websites": "npx ts-node ./src/hosting-websites.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
