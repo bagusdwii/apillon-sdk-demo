@@ -11,7 +11,9 @@
     "storage:bucket-upload": "npx ts-node ./src/storage-bucket-upload.ts",
     "storage:bucket-ipns-create": "npx ts-node ./src/storage-bucket-ipns-create.ts",
     "storage:bucket-ipns-update": "npx ts-node ./src/storage-bucket-ipns-update.ts",
-    "hosting:websites": "npx ts-node ./src/hosting-websites.ts"
+    "hosting:websites": "npx ts-node ./src/hosting-websites.ts",
+    "hosting:website-deploy": "npx ts-node ./src/hosting-website-deploy.ts",
+    "hosting:website-deploy-status": "npx ts-node ./src/hosting-website-deploy-status.ts"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
