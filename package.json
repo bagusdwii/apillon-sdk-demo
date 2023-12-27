@@ -6,6 +6,8 @@
   "scripts": {
     "start": "nodemon --exec npx ts-node src/index.ts",
     "identity": "npx ts-node ./src/identity.ts",
+    "identity:generate-message": "npx ts-node ./src/identity-generate-message.ts",
+    "identity:validate-signature": "npx ts-node ./src/identity-validate-signature.ts",
     "storage:buckets": "npx ts-node ./src/storage-buckets.ts",
     "storage:bucket-content": "npx ts-node ./src/storage-bucket-content.ts",
     "storage:bucket-upload": "npx ts-node ./src/storage-bucket-upload.ts",
