@@ -1,8 +1,8 @@
 import { Storage, StorageContentType } from "@apillon/sdk";
-import { prepareEnv } from "./helpers";
+import { EnvLevel, prepareEnv } from "./helpers";
 
 (async () => {
-  prepareEnv();
+  prepareEnv(EnvLevel.STORAGE);
   const storage = new Storage({
     key: process.env.APILLON_API_KEY,
     secret: process.env.APILLON_API_SECRET,
