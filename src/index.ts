@@ -2,7 +2,9 @@ console.log(`
 Hello developer
 
 We have prepared multiple script for you to run so you can see Apillon SDK in action.
-You will need to send ENV variables with you API key and secret to run examples.
+This are code snippets of some of the main functionalities of SDK. 
+You will need to set different ENV variables to run the full set of examples. Some can be run without 
+any ENV some need them. You can read more of that from README.
 If you are running in codesandbox be careful of exposing the keys.
 
 We have all major functionalities as examples so you can run scripts:
@@ -24,5 +26,4 @@ We have all major functionalities as examples so you can run scripts:
 - npm run nft:collection-create
 - npm run nft:collection-mint
 - npm run nft:collection
-
 `);
