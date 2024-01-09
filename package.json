@@ -15,6 +15,7 @@
     "storage:bucket-ipns-create": "npx ts-node ./src/storage-bucket-ipns-create.ts",
     "storage:bucket-ipns-publish": "npx ts-node ./src/storage-bucket-ipns-publish.ts",
     "hosting:websites": "npx ts-node ./src/hosting-websites.ts",
+    "hosting:website": "npx ts-node ./src/hosting-website.ts",
     "hosting:website-deploy": "npx ts-node ./src/hosting-website-deploy.ts",
     "hosting:website-deploy-status": "npx ts-node ./src/hosting-website-deploy-status.ts",
     "nft:collections": "npx ts-node ./src/nft-collections.ts",
