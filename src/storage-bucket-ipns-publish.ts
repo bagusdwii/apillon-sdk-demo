@@ -15,7 +15,7 @@ import { EnvLevel, prepareEnv } from "./helpers";
   // Change CID with your own content
   ipns = await ipns.publish("QmQgTdGuBbRMkHESQeRWsgjRtgCdgd2XjCYTcpoLNu2mMk");
 
-  console.log(`IPNS ${ipns.uuid} updated: `, ipns.link);
+  console.log(`IPNS ${ipns.uuid} successfully published: `, ipns.link);
 })().catch(async (err) => {
   console.log(err);
 });

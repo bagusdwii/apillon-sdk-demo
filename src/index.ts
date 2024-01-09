@@ -13,7 +13,7 @@ We have all major functionalities as examples so you can run scripts:
 - npm run storage:bucket-upload
 - npm run storage:bucket-upload-from-folder
 - npm run storage:bucket-ipns-create
-- npm run storage:bucket-ipns-update
+- npm run storage:bucket-ipns-publish
 
 - npm run hosting:websites
 - npm run hosting:website-deploy
