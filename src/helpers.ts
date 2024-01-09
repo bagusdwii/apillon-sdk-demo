@@ -33,9 +33,9 @@ export function prepareEnv(level: EnvLevel = EnvLevel.GENERAL) {
 
   if (
     (level == EnvLevel.HOSTING || level == EnvLevel.HOSTING_DEPLOYMENT) &&
-    !process.env.APILLON_HOSTING
+    !process.env.APILLON_WEBSITE
   ) {
-    throw new Error("Missing env: APILLON_HOSTING");
+    throw new Error("Missing env: APILLON_WEBSITE");
   }
 
   if (level == EnvLevel.HOSTING_DEPLOYMENT && !process.env.APILLON_DEPLOYMENT) {

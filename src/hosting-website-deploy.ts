@@ -8,7 +8,7 @@ import { EnvLevel, prepareEnv } from "./helpers";
     secret: process.env.APILLON_API_SECRET,
   });
 
-  const website = hosting.website(process.env.APILLON_HOSTING);
+  const website = hosting.website(process.env.APILLON_WEBSITE);
   await website.uploadFromFolder("./example/website");
   const deployment = await website.deploy(DeployToEnvironment.TO_STAGING);
   console.log("Deploy started check status via uuid: ", deployment.uuid);

@@ -17,7 +17,7 @@ APILLON_API_KEY=
 APILLON_API_SECRET=
 APILLON_BUCKET=
 APILLON_IPNS=
-APILLON_HOSTING=
+APILLON_WEBSITE=
 APILLON_DEPLOYMENT=
 APILLON_COLLECTION=
 ```
@@ -56,9 +56,18 @@ Code in `./src/storage-bucket-content.ts`.
 npm run storage:bucket-content
 ```
 
-#### Upload files to bucket
+#### Upload file(s) to bucket
 
 Code in `./src/storage-bucket-upload.ts`.
+`APILLON_BUCKET` env needs to be set with the bucket UUID to which we are uploading files.
+
+```sh
+npm run storage:bucket-upload
+```
+
+#### Upload file(s) from folder to bucket
+
+Code in `./src/storage-bucket-upload-from-folder.ts`.
 `APILLON_BUCKET` env needs to be set with the bucket UUID to which we are uploading files.
 
 ```sh
@@ -74,9 +83,9 @@ Code in `./src/storage-bucket-ipns-create.ts`.
 npm run storage:bucket-ipns-create
 ```
 
-#### Update existing IPNS with a new IPFS CID
+#### Publish existing IPNS to a new IPFS CID
 
-Code in `./src/storage-bucket-ipns-update.ts`.
+Code in `./src/storage-bucket-ipns-publish.ts`.
 `APILLON_BUCKET` env needs to be set with the bucket UUID for which we are creating IPNS.
 `APILLON_IPNS` env needs to be set with the IPNS UUID which we are updating.
 
@@ -101,7 +110,7 @@ npm run hosting:websites
 #### Deploy a website
 
 Code in `./src/hosting-website-deploy.ts`.
-`APILLON_HOSTING` env needs to be set with the website UUID to which we are uploading new files.
+`APILLON_WEBSITE` env needs to be set with the website UUID to which we are uploading new files.
 
 ```sh
 npm run hosting:website-deploy
@@ -110,7 +119,7 @@ npm run hosting:website-deploy
 #### Get website deploy status
 
 Code in `./src/hosting-website-deploy.ts`.
-`APILLON_HOSTING` env needs to be set with the website UUID to which we are getting status.
+`APILLON_WEBSITE` env needs to be set with the website UUID to which we are getting status.
 `APILLON_DEPLOYMENT` env needs to be set with the deployment UUID of which we are getting status.
 
 ```sh

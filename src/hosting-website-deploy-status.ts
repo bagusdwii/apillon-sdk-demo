@@ -9,7 +9,7 @@ import { EnvLevel, prepareEnv } from "./helpers";
   });
 
   const deployment = await hosting
-    .website(process.env.APILLON_HOSTING)
+    .website(process.env.APILLON_WEBSITE)
     .deployment(process.env.APILLON_DEPLOYMENT)
     .get();
 
