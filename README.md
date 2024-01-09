@@ -5,7 +5,51 @@ It provided code snippets of main functionalities. For detailed documentation go
 
 It can be run locally or in browser via [Codesandbox](https://codesandbox.io/).
 
-## Environment
+## Usage
+
+To run examples you will need to create an [Apillon account](https://app.apillon.io/). Create a project and API key.
+You will need to set API key and secret ENV variables. See the Environment section of this readme.
+
+All examples are written in `Typescript` and can be ran via terminal. Be it on CodeSandbox or locally.
+
+### Run Locally
+
+Requirements:
+
+- node.js v18 or higher
+- npm v8.4.0 or higher
+
+To run locally first clone the code.
+
+```sh
+git clone https://github.com/Apillon/apillon-sdk-demo.git
+```
+
+Then move into created folder:
+
+```sh
+cd apillon-sdk-demo
+```
+
+Then you need to install all the dependencies via:
+
+```sh
+npm install
+```
+
+In the root you will also need to create `.env` file and add variables to run examples. You can read more in the [Environment section](#environment).
+
+### Run in browser via CodeSandbox
+
+To run examples in you browser you can do so via [this link](https://codesandbox.io/p/github/Apillon/apillon-sdk-demo/master).
+
+You will need to create a CodeSandbox account and fork the code. Then you will be able to edit it.
+
+First modify `.gitignore` and remove `.env` from it. Then you can create a `.env` file in the root and set variables as specified in the [Environment section](#environment).
+
+To run examples you can open a new terminal an run them there as shown in the [examples below](#run-examples).
+
+### Environment
 
 Create a `.env` file in root. Here you can add ENV variables. All variables are not needed to run examples.
 Most only need API key and secret. Details of what each variable represent is written in the usage section.
@@ -22,16 +66,9 @@ APILLON_DEPLOYMENT=
 APILLON_COLLECTION=
 ```
 
-## Usage
+## Run examples
 
-To run examples you will need to create an [Apillon account](https://app.apillon.io/). Create a project and API key.
-You will need to set API key and secret ENV variables. See the Environment section of this readme.
-
-If you are running locally first install dependencies via: `npm install`.
-
-If you want to run it via CodeSandbox you can via [this link](https://codesandbox.io/p/github/Apillon/apillon-sdk-demo/master).
-
-All examples are written in `Typescript` and can be ran via terminal. Be it on CodeSandbox or locally.
+All SDK examples supported in the demo are listed below. The command specified for each examples needs to be run via terminal.
 
 ### Storage examples
 
