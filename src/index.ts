@@ -11,6 +11,7 @@ We have all major functionalities as examples so you can run scripts:
 - npm run storage:buckets
 - npm run storage:bucket-content
 - npm run storage:bucket-upload
+- npm run storage:bucket-upload-from-folder
 - npm run storage:bucket-ipns-create
 - npm run storage:bucket-ipns-update
 

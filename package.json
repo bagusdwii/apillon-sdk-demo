@@ -11,6 +11,7 @@
     "storage:buckets": "npx ts-node ./src/storage-buckets.ts",
     "storage:bucket-content": "npx ts-node ./src/storage-bucket-content.ts",
     "storage:bucket-upload": "npx ts-node ./src/storage-bucket-upload.ts",
+    "storage:bucket-upload-from-folder": "npx ts-node ./src/storage-bucket-upload-from-folder.ts",
     "storage:bucket-ipns-create": "npx ts-node ./src/storage-bucket-ipns-create.ts",
     "storage:bucket-ipns-update": "npx ts-node ./src/storage-bucket-ipns-update.ts",
     "hosting:websites": "npx ts-node ./src/hosting-websites.ts",
