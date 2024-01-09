@@ -17,6 +17,7 @@
     "hosting:websites": "npx ts-node ./src/hosting-websites.ts",
     "hosting:website-deploy": "npx ts-node ./src/hosting-website-deploy.ts",
     "hosting:website-deploy-status": "npx ts-node ./src/hosting-website-deploy-status.ts",
+    "hosting:website-get": "npx ts-node ./src/hosting-website-get.ts",
     "nft:collections": "npx ts-node ./src/nft-collections.ts",
     "nft:collection": "npx ts-node ./src/nft-collection.ts",
     "nft:collection-create": "npx ts-node ./src/nft-collection-create.ts",

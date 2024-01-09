@@ -18,6 +18,7 @@ We have all major functionalities as examples so you can run scripts:
 - npm run hosting:websites
 - npm run hosting:website-deploy
 - npm run hosting:website-deploy-status
+- npm run hosting:website-get
 
 - npm run identity
 - npm run identity:generate-message
