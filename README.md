@@ -165,7 +165,7 @@ npm run hosting:website-deploy-status
 
 #### Get website
 
-Code in `./src/hosting-website-get.ts`.
+Code in `./src/hosting-website.ts`.
 `APILLON_WEBSITE` env needs to be set with the website UUID to which we are getting status.
 `APILLON_DEPLOYMENT` env needs to be set with the deployment UUID of which we are getting status.
 
