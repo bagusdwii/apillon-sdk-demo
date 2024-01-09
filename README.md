@@ -163,6 +163,16 @@ Code in `./src/hosting-website-deploy.ts`.
 npm run hosting:website-deploy-status
 ```
 
+#### Get website
+
+Code in `./src/hosting-website-get.ts`.
+`APILLON_WEBSITE` env needs to be set with the website UUID to which we are getting status.
+`APILLON_DEPLOYMENT` env needs to be set with the deployment UUID of which we are getting status.
+
+```sh
+npm run hosting:website-deploy-status
+```
+
 ### Identity examples
 
 > Examples of using Apillon identity functionalities via SDK.
