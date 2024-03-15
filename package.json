@@ -28,7 +28,7 @@
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "@apillon/sdk": "1.2.0-beta.1",
+    "@apillon/sdk": "^1.2.0-beta.1",
     "dotenv": "^16.3.1",
     "ts-node": "10.9.2",
     "typescript": "5.3.3"
